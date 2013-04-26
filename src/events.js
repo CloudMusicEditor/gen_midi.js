@@ -1,0 +1,6 @@
+(function() {
+
+    OME.midi.events = {
+    };
+
+}());
