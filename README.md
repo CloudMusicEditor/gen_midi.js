@@ -9,4 +9,6 @@ However you care to pronounce it!
 
 Build instructions
 ==================
-```make```
+```shell
+make
+```
