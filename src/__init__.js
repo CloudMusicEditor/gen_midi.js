@@ -1,1 +1,1 @@
-OME.midi = {};
+JSMIDGEN = {};

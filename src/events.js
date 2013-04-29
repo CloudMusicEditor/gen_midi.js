@@ -1,6 +1,2 @@
-(function() {
-
-    OME.midi.events = {
-    };
-
-}());
+JSMIDGEN.events = {
+};
