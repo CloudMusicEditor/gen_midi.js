@@ -5,7 +5,8 @@ are intended to occur, and JSmidgen generates the MIDI format file data with tha
 
 How is the name pronounced?
 ===========================
-However you care to pronounce it!
+Both "js-mid-gen" and "js-smidgen" and hybrids thereof are accepted pronunciations. However alternatives
+may be considered.
 
 Build instructions
 ==================
