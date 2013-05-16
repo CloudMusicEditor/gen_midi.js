@@ -26,7 +26,7 @@ JSMIDGEN.gen.genMIDI = function genMIDI(data) {
 
     for (var t = 0, ntracks = data.tracks.length; t < ntracks; t++) {
         // Create a track chunk. Requires first generating all of
-        // the track's data chunks, so we can report the length.
+        // the track's /data/ chunks, so we can report an accurate length.
 
         var track = data.tracks[t];
         body += "MTrk";
