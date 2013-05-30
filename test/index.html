@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+
+
+<script type="text/javascript" src="../src/__init__.js"></script>
+<script type="text/javascript" src="../src/consts.js"></script>
+<script type="text/javascript" src="../src/events.js"></script>
+<script type="text/javascript" src="../src/gen.js"></script>
+<script type="text/javascript" src="../src/structs.js"></script>
+<script type="text/javascript" src="../src/utils.js"></script>
+
+<script type="text/javascript"><!--
+(function() {
+
+var midi = JSMIDGEN.gen.genMIDI({
+	track_mode: JSMIDGEN.consts.TRACK_MODES.SINGLE,
+	tracks: [
+
+	],
+	deltaTicks: 8
+});
+
+console.log(escape(midi));
+
+}());
+
+//--></script>
+
+</head>
+<body>
+
+</body>
+</html>

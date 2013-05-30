@@ -1,6 +1,6 @@
 JSMIDGEN.struct = {};
 
-JSMIDGEN.struct.Track = Class.extend({
+JSMIDGEN.struct.Track = {
     init: function() {
     },
     events: [],
@@ -15,12 +15,12 @@ JSMIDGEN.struct.Track = Class.extend({
         // you would like the state of the track at the beginning
         // of the instant specified by `time` or at the end.
     }
-});
+};
 
-JSMIDGEN.struct.Event = Class.extend({
+JSMIDGEN.struct.Event = {
     command: null,
     channel: null,
     data: null
-});
+};
 
 JSMIDGEN.struct.State = {};

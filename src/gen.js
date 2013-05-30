@@ -48,16 +48,3 @@ JSMIDGEN.gen.genMIDI = function genMIDI(data) {
 
     return header;
 }
-
-
-$(function(){
-
-    console.log(escape(JSMIDGEN.gen.genMIDI({
-        track_mode: JSMIDGEN.consts.TRACK_MODES.SINGLE,
-        tracks: [
-
-        ],
-        deltaTicks: 8
-    })));
-
-});
